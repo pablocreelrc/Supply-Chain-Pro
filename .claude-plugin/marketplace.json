@@ -1,0 +1,35 @@
+{
+  "name": "supply-chain-pro",
+  "owner": {
+    "name": "Pablo Creel",
+    "email": "pablo@creel.com"
+  },
+  "metadata": {
+    "description": "Supply Chain Management analytics skills with formulated Excel output",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "supply-chain-analytics",
+      "description": "Complete supply chain toolkit: newsvendor, EOQ, safety stock, LP optimization, flexibility, contracting, forecasting, network design — all with IB-formatted Excel output",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./foundations/newsvendor-model",
+        "./foundations/eoq-cycle-inventory",
+        "./foundations/safety-stock-policy",
+        "./analytics/linear-programming-optimization",
+        "./analytics/flexibility-demand-pooling",
+        "./analytics/supply-chain-contracting",
+        "./analytics/aggregate-planning",
+        "./analytics/demand-forecasting",
+        "./analytics/network-design",
+        "./advanced/competitive-cost-analysis",
+        "./advanced/sustainability-operations",
+        "./workflows/end-to-end-capacity-planning",
+        "./workflows/inventory-system-design",
+        "./infrastructure/skill-authoring-workflow"
+      ]
+    }
+  ]
+}
